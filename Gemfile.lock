@@ -104,6 +104,8 @@ GEM
       reline (>= 0.3.8)
     drb (2.2.1)
     erubi (1.13.0)
+    faker (3.5.1)
+      i18n (>= 1.8.11, < 2)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-aarch64-linux-musl)
     ffi (1.17.0-arm-linux-gnu)
@@ -295,6 +297,7 @@ DEPENDENCIES
   bundle (~> 0.0.1)
   capybara
   debug
+  faker (~> 3.2)
   font-awesome-sass (~> 6.0.0)
   importmap-rails
   jbuilder
